@@ -23,6 +23,13 @@ namespace Dsw2026Ej8
             Problema4 p4 = new Problema4();
             Console.WriteLine(p4.CalcularPromedio(8, null, 10));
 
+            Console.WriteLine("\n===== PROBLEMA 5 =====");
+            Problema5 p5 = new Problema5();
+            Sale venta1 = new RetailSale { Amount = 1000 };
+            Sale venta2 = new WholesaleSale { Amount = 1000 };
+            Console.WriteLine(p5.ObtenerImporteFinal(venta1));
+            Console.WriteLine(p5.ObtenerImporteFinal(venta2));
+
         }
     }
 }
