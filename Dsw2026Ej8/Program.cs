@@ -19,6 +19,10 @@ namespace Dsw2026Ej8
             Product prod = new Product { Description = "Original" };
             Console.WriteLine(p3.CompararCopias(5, prod));
 
+            Console.WriteLine("\n===== PROBLEMA 4 =====");
+            Problema4 p4 = new Problema4();
+            Console.WriteLine(p4.CalcularPromedio(8, null, 10));
+
         }
     }
 }
