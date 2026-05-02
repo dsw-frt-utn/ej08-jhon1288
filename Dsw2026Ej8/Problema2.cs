@@ -10,7 +10,7 @@ namespace Dsw2026Ej8
         {
             decimal total = quantity <= 0 ? 0 : quantity * unitPrice;
 
-            var resumen = new
+            var resumen = new  //clase anonima//
             {
                 Code = productCode,
                 Description = productDescription,

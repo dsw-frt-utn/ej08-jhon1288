@@ -1,4 +1,6 @@
-﻿namespace Dsw2026Ej8
+﻿using Dsw2026ej8;
+
+namespace Dsw2026Ej8
 {
     internal class Program
     {
@@ -11,6 +13,12 @@
             Console.WriteLine("\n===== PROBLEMA 2 =====");
             Problema2 p2 = new Problema2();
             Console.WriteLine(p2.CrearResumenVenta(1001, "Teclado", 2, 1500));
+
+            Console.WriteLine("\n===== PROBLEMA 3 =====");
+            Problema3 p3 = new Problema3();
+            Product prod = new Product { Description = "Original" };
+            Console.WriteLine(p3.CompararCopias(5, prod));
+
         }
     }
 }
