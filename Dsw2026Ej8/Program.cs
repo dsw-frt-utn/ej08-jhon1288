@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("===== PROBLEMA 1 =====");
+            ProductHelper helper = new ProductHelper();
+            Console.WriteLine(helper.ObtenerEtiquetaProducto(123, "Mouse", 1500));
         }
     }
 }
