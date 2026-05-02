@@ -30,6 +30,13 @@ namespace Dsw2026Ej8
             Console.WriteLine(p5.ObtenerImporteFinal(venta1));
             Console.WriteLine(p5.ObtenerImporteFinal(venta2));
 
+            Console.WriteLine("\n===== PROBLEMA 6 =====");
+            Problema6 p6 = new Problema6();
+            Console.WriteLine(p6.NormalizarCodigoProducto(" ab 123 x "));
+            Console.WriteLine(p6.NormalizarCodigoProducto(null));
+
+            Console.ReadLine();
+
         }
     }
 }
